@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Columns</title>
+</head>
+<body>
+    <h1>Select Columns to Plot</h1>
+    <form action="/plot" method="post">
+        <input type="hidden" name="file_name" value="{{ file_name }}">
+        <label for="x_column">X-axis Column:</label>
+        <select name="x_column" id="x_column">
+            {% for column in columns %}
+                <option value="{{ column }}">{{ column }}</option>
+            {% endfor %}
+        </select><br>
+        <label for="y_column">Y-axis Column:</label>
+        <select name="y_column" id="y_column">
+            {% for column in columns %}
+                <option value="{{ column }}">{{ column }}</option>
+            {% endfor %}
+        </select><br>
+        <input type="submit" value="Plot">
+    </form>
+</body>
+</html>
