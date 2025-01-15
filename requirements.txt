@@ -236,7 +236,6 @@ python-json-logger==2.0.7
 pytz==2024.1
 pyvo==1.5.2
 pyxnat==1.6.2
-PyYAML==6.0.1
 pyzmq==26.0.3
 rdflib==6.3.2
 referencing==0.35.1
@@ -278,6 +277,7 @@ tenacity==9.0.0
 tensorboard==2.17.0
 tensorboard-data-server==0.7.2
 tensorflow==2.17.0
+tensorflow-io-gcs-filesystem==0.37.1
 termcolor==2.4.0
 terminado==0.18.1
 tf_keras==2.17.0
@@ -323,3 +323,4 @@ yarl==1.9.4
 zarr==2.18.3
 zict==3.0.0
 zipp==3.21.0
+gunicorn==20.1.0
