@@ -150,9 +150,6 @@ matplotlib==3.8.4
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 mistune==3.0.2
-mkl-fft @ file:///work/perseverance-python-buildout/croot/mkl_fft_1698845673361/work
-mkl-random @ file:///work/perseverance-python-buildout/croot/mkl_random_1698845720894/work
-mkl-service==2.4.0
 ml-dtypes==0.4.0
 mocpy==0.16.2
 more-itertools==10.5.0
