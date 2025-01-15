@@ -1,22 +1,22 @@
 # CSV Graph Generator
 
-Esta aplicación web permite a los usuarios subir archivos CSV, seleccionar columnas y generar gráficos.
+This web application allows users to upload CSV files, select columns, and generate graphs.
 
-## Uso
+## Usage
 
-1. Visita la aplicación en [https://csv-graph-generator-4.onrender.com](https://csv-graph-generator-4.onrender.com).
-2. Sube un archivo CSV.
-3. Selecciona las columnas para los ejes X e Y.
-4. Genera y visualiza el gráfico.
+1. Visit the application at [https://csv-graph-generator-4.onrender.com](https://csv-graph-generator-4.onrender.com).
+2. Upload a CSV file.
+3. Select the columns for the X and Y axes.
+4. Generate and view the graph.
 
-## Despliegue
+## Deployment
 
-La aplicación está desplegada en Render y puede ser accesada [aquí](https://csv-graph-generator-4.onrender.com).
+The application is deployed on Render and can be accessed [here](https://csv-graph-generator-4.onrender.com).
 
-## Contribuir
+## Contributing
 
-Pull requests son bienvenidos. Para cambios mayores, por favor abre un issue primero para discutir lo que te gustaría cambiar.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Licencia
+## License
 
 [MIT](LICENSE)
